@@ -1,0 +1,31 @@
+{
+  "name": "match",
+  "plural": "matches",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "timestamp": {
+      "type": "date",
+      "required": true
+    },
+    "winner": {
+      "type": "number",
+      "required": true
+    },
+    "loser": {
+      "type": "number",
+      "required": true
+    },
+    "sevenball": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
