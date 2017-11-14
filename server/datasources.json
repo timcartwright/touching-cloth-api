@@ -1,12 +1,11 @@
 {
   "db": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "touchingCloth",
+    "url": "ed84e86a-aecf-4c66-bf66-fce18b2b67d5-bluemix:521020f230d7e5178353a57898826447ff89e492a59d90e8fa0ec19779066ccc@ed84e86a-aecf-4c66-bf66-fce18b2b67d5-bluemix.cloudant.com",
+    "database": "touching-cloth",
+    "username": "",
     "password": "",
     "name": "db",
-    "user": "",
-    "connector": "mongodb"
+    "modelIndex": "",
+    "connector": "cloudant"
   }
 }
