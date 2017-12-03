@@ -21,17 +21,21 @@
     },
     "avatar": {
       "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "opponent": {
+      "type": "string"
+    },
+    "ladderRank": {
+      "type": "number"
+    },
+    "streak": {
+      "type": "array"
     }
   },
   "validations": [],
   "relations": {},
-  "acls": [
-    {
-      "accessType": "WRITE",
-      "principalType": "ROLE",
-      "principalId": "$unauthenticated",
-      "permission": "DENY"
-    }
-  ],
   "methods": {}
 }

@@ -1,0 +1,38 @@
+{
+    "local": {
+        "provider": "local",
+        "module": "passport-local",
+        "usernameField": "username",
+        "passwordField": "password",
+        "authPath": "/auth/local",
+        "successRedirect": "/auth/account"
+    },
+   
+    "google-login": {
+        "provider": "google",
+        "module": "passport-google-oauth",
+        "strategy": "OAuth2Strategy",
+        "clientID": "{google-client-id-1}",
+        "clientSecret": "{google-client-secret-1}",
+        "callbackURL": "http://localhost:3000/auth/google/callback",
+        "authPath": "/auth/google",
+        "callbackPath": "/auth/google/callback",
+        "successRedirect": "/auth/account",
+        "scope": ["email", "profile"]
+    },
+    
+    "google-link": {
+        "provider": "google",
+        "module": "passport-google-oauth",
+        "strategy": "OAuth2Strategy",
+        "clientID": "289116526958-0lmlai4d508b01kl624dg2alkphdai4s.apps.googleusercontent.com",
+        "clientSecret": "9RV6dkQV5jIOJw8OduM0-H2w",
+        "callbackURL": "http://localhost:3000/link/google/callback",
+        "authPath": "/link/google",
+        "callbackPath": "/link/google/callback",
+        "successRedirect": "/link/account",
+        "scope": ["email", "profile"],
+        "link": true
+    }
+}
+  
